@@ -1,7 +1,7 @@
 # First Proposal of final Data Processing project
 # Verena Weber, 20 November, 2026
 
-Research question: Which words are most characteristic of the novels on The Guardian’s list of 100 novels, and how do they vary by genre?
+Research question: Which words are most characteristic of the novels on The Guardian’s list of 100 novels, and in what way do they vary by genre?
 
 I will create a dataset containing each book’s title, author, description, and one broad primary genre. I will first test whether descriptions and genre labels are available consistently from a permitted source, and record the source for each entry.
 
