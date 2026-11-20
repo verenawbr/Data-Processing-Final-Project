@@ -1,4 +1,8 @@
 # First Proposal of final Data Processing project
 # Verena Weber, 20 November, 2026
 
-This is a description of my research proposal. It does not contain any ideas yet.
+Research question: Which words are most characteristic of the novels on The Guardian’s list of 100 novels, and how do they vary by genre?
+
+I will create a dataset containing each book’s title, author, description, and one broad primary genre. I will first test whether descriptions and genre labels are available consistently from a permitted source, and record the source for each entry.
+
+Using spaCy, I will tokenize and lemmatize each description and remove stop words. Treating each description as a document, I will calculate TF-IDF scores across the corpus and retain the 15 highest-scoring terms per book. These terms indicate distinctiveness, not simply frequency. To compare genres, I will calculate the proportion of books in each genre whose top 15 terms include each word. I will visualize the results with bar charts showing characteristic terms for selected books, and word clouds for the full corpus and the five largest genres. The clouds will be based on the normalized occurrence of terms among the books’ top 15 TF-IDF keywords; the bar charts will show exact values for comparison.
